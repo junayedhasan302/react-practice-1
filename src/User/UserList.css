@@ -1,0 +1,73 @@
+.user-list-section {
+  padding: 35px;
+  background: #ffffff;
+  border: 1px solid #c7d2fe;
+  border-radius: 20px;
+  box-shadow: 0 12px 35px rgba(79, 70, 229, 0.08);
+  transition: 0.3s ease;
+}
+
+.user-list-section:hover {
+  box-shadow: 0 18px 45px rgba(79, 70, 229, 0.13);
+}
+
+
+/* Header */
+
+.user-list-header {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.user-list-label {
+  display: inline-block;
+  margin: 0 0 10px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  background: #eef2ff;
+  color: #4f46e5;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.user-list-header h1 {
+  margin: 5px 0 10px;
+  color: #1e1b4b;
+  font-size: 30px;
+}
+
+.user-list-header p:last-child {
+  margin: 0;
+  color: #64748b;
+  font-size: 14px;
+}
+
+
+/* User List */
+
+.user-list {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 600px) {
+  .user-list-section {
+    padding: 22px;
+  }
+
+  .user-list-header h1 {
+    font-size: 24px;
+  }
+
+  .user-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}

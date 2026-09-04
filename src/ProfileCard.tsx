@@ -6,7 +6,8 @@ export default function Profile() {
   return (
     <div>
       <hr />
-      <h3>{name}</h3>
+      <h1>ProfileCard.tsx</h1>
+      <p>Name: {name}</p>
       <p>Age: {age}</p>
       <p>Hobby: {favHobby}</p>
       <p>Approximate Birth Year: {2026-age}</p>

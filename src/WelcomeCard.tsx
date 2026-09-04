@@ -2,8 +2,8 @@ export default function WelcomeCard(){
     return(
         <div>
             <hr />
-            <h1>Welcome</h1>
-            <h2>JUNAYED HASAN</h2>
+            <h1>WelcomeCard.tsx</h1>
+            <p>JUNAYED HASAN</p>
         </div>
     )
 }

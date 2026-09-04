@@ -4,7 +4,8 @@ export default function ProductCard({productName, price, inStock}:PropsType ){
     return(
         <div>
             <hr />
-            <h2>Product Name: {productName}</h2>
+            <h1>ProductCard.tsx</h1>
+            <p>Product Name: {productName}</p>
             <p>Price: {price}</p>
             {inStock ? <button>Available</button>: <p>Out of Stock</p>}
             {/* {inStock ? <button>Buy</button>: <p>Out of Stock</p>} */}

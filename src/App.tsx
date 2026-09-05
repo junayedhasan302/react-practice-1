@@ -92,7 +92,6 @@ function App() {
         </div>
       </section>
 
-
       {/* Greeting */}
       <section className="section-wrapper">
         <div className="section-heading">
@@ -101,7 +100,6 @@ function App() {
         </div>
 
         <div className="greeting-container">
-
           <div className="greeting-section">
             <UserGreeting username="Junayed" />
           </div>
@@ -124,6 +122,7 @@ function App() {
       <section className="student-project">
         <StudentList />
       </section>
+
 
 
       {/* Footer */}
